@@ -45,7 +45,7 @@ static void draw_battery_arc_peripheral(lv_obj_t *canvas, const lv_point_t *dots
 static void draw_battery_labels_peripheral(lv_obj_t *canvas, uint8_t level)
 {
     lv_draw_label_dsc_t label_dsc;
-    init_label_dsc(&label_dsc, LVGL_FOREGROUND, &quinquefive_12, LV_TEXT_ALIGN_CENTER);
+    init_label_dsc(&label_dsc, LVGL_FOREGROUND, &quinquefive_18, LV_TEXT_ALIGN_CENTER);
     lv_canvas_draw_text(canvas, 81, 31, 56, &label_dsc, "R");
 
     char buf[8];
