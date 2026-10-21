@@ -56,8 +56,8 @@
             display-name = "SYM";
             bindings = <
                 &trans   &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &trans
-                &trans &trans   &trans &trans   &kp SQT   &kp GRAVE      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &trans
-                &trans &trans   &trans &trans   &trans   &kp TILDE      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &trans
+                &trans &kp TILDE   &kp GRAVE &kp SQT   &kp DQT   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &trans
+                &trans &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &trans
                                           &kp LGUI &trans   &trans   &trans   &trans    &trans
             >;
         };
