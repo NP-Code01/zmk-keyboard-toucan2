@@ -47,7 +47,7 @@ static void draw_battery_labels(lv_obj_t *canvas, uint8_t level)
 {
 
     lv_draw_label_dsc_t label_dsc;
-    init_label_dsc(&label_dsc, LVGL_FOREGROUND, &quinquefive_12, LV_TEXT_ALIGN_CENTER);
+    init_label_dsc(&label_dsc, LVGL_FOREGROUND, &quinquefive_18, LV_TEXT_ALIGN_CENTER);
     lv_canvas_draw_text(canvas, 9, 31, 56, &label_dsc, "L");
 
     char buf[8];
