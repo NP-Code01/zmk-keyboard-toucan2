@@ -48,13 +48,13 @@ static void draw_battery_labels(lv_obj_t *canvas, uint8_t level)
 
     lv_draw_label_dsc_t label_dsc;
     init_label_dsc(&label_dsc, LVGL_FOREGROUND, &quinquefive_18, LV_TEXT_ALIGN_CENTER);
-    lv_canvas_draw_text(canvas, 13, 31, 56, &label_dsc, "L");
+    lv_canvas_draw_text(canvas, 9, 31, 56, &label_dsc, "L");
 
     char buf[8];
     snprintf(buf, sizeof(buf), "%d", level);
     lv_draw_label_dsc_t label_dsc_txt;
     init_label_dsc(&label_dsc_txt, LVGL_FOREGROUND, &quinquefive_8, LV_TEXT_ALIGN_CENTER);
-    lv_canvas_draw_text(canvas, 13, 52, 56, &label_dsc_txt, buf);
+    lv_canvas_draw_text(canvas, 9, 52, 56, &label_dsc_txt, buf);
 }
 
 void draw_battery_status(lv_obj_t *canvas, const struct status_state *state) {
